@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    string s1 = "hello my name is name what is your name";
-    string s2 = "name";
+    string s1 = "JIM_SAW_ME_IN_A_BARBER_SHOP";
+    string s2 = "BARBER";
     int n1 = s1.size() , n2 = s2.size();
-    map<char,int> shift;
+    unordered_map<char,int> shift;
     for(int i = 0; i < n2 - 1 ;i++)
     {
         shift[s2[i]] = n2 - 1 - i;

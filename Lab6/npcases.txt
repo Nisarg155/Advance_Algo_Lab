@@ -1,0 +1,5 @@
+x <= p y
+case 1 :- x is P => can't say about y
+case 2 :-y is in p => x is in P
+case 3 :- x is hard => y is hard
+case 4 : y is hard => can't say about x
