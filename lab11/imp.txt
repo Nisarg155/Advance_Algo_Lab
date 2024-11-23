@@ -1,0 +1,2 @@
+we have m bins 
+claim :- atleast m-1 is more than half full
